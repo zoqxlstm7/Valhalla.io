@@ -378,7 +378,7 @@ GameObject:
   - component: {fileID: 745991229}
   - component: {fileID: 745991230}
   m_Layer: 0
-  m_Name: Skill01
+  m_Name: BaseAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1868,6 +1868,7 @@ GameObject:
   - component: {fileID: 2334400404037087266}
   - component: {fileID: 323259721}
   - component: {fileID: 3216728044261025338}
+  - component: {fileID: 3216728044261025339}
   m_Layer: 0
   m_Name: Stella04
   m_TagString: Untagged
@@ -1885,6 +1886,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 48e89eb834eda994bbc168a374ef2f8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseAttack: {fileID: 745991229}
+--- !u!114 &3216728044261025339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3216728044261025337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 749e4045462866c438068a32e245cead, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &3242499542191285243

@@ -27,10 +27,6 @@ public class SimulateProjectile : MonoBehaviour
     #region Unity Methods
     private void Update()
     {
-        if(Input.GetMouseButtonDown(0))
-        {
-            Fire();
-        }
         UpdateProjectile(Time.deltaTime);
     }
     #endregion Unity Methods

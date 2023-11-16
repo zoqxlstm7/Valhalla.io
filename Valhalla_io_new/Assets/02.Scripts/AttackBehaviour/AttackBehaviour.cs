@@ -14,7 +14,7 @@ public abstract class AttackBehaviour : MonoBehaviour
     #region Unity Methods
     private void Start()
     {
-        calcCoolTime = coolTime;
+        Initialize();
     }
 
     private void Update()
@@ -24,6 +24,11 @@ public abstract class AttackBehaviour : MonoBehaviour
     #endregion Unity Methods
 
     #region Main Methods
+    protected virtual void Initialize()
+    {
+        calcCoolTime = coolTime;
+    }
+
     private void UpdateCoolTime()
     {
         if(calcCoolTime <= coolTime)

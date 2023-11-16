@@ -5,27 +5,24 @@ using UnityEngine;
 public class AttackController : MonoBehaviour
 {
     #region Variables
-    private bool isLongRangeAttack;
+    [SerializeField]
+    private AttackBehaviour baseAttack;
     #endregion Variables
 
     #region Unity Methods
-    private void Awake()
+    private void Update()
     {
-        isLongRangeAttack = GetComponentInChildren<ManualCollider>() != null;
+        if(Input.GetMouseButtonDown(0))
+        {
+            AttackManagement(baseAttack);
+        }
     }
     #endregion Unity Methods
 
     #region Main Methods
-    public void AttackManagement()
+    public void AttackManagement(AttackBehaviour behaviour)
     {
-        if(isLongRangeAttack)
-        {
-
-        }
-        else
-        {
-
-        }
+        behaviour.ExecuteAttack();
     }
     #endregion Main Methods
 }
