@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StellaController
+  m_Controller: {fileID: 9100000, guid: 697380a33bb0ec14e8ba291e09613c25, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: 15d2bebacf1574a45a85253ae486eb78,
+      type: 3}
+    m_OverrideClip: {fileID: 1827226128182048838, guid: 15d2bebacf1574a45a85253ae486eb78,
+      type: 3}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: 0b4e712d89aae684c98eeacab637f8df,
+      type: 3}
+    m_OverrideClip: {fileID: 1827226128182048838, guid: 0b4e712d89aae684c98eeacab637f8df,
+      type: 3}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: 259683159e68b234ab89b4c3c5f2af79,
+      type: 3}
+    m_OverrideClip: {fileID: 1827226128182048838, guid: 259683159e68b234ab89b4c3c5f2af79,
+      type: 3}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: 8d7236c31d9cb464ba8dbbb4acc45898,
+      type: 3}
+    m_OverrideClip: {fileID: 1827226128182048838, guid: 8d7236c31d9cb464ba8dbbb4acc45898,
+      type: 3}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: 0077acff8ea3f904094faba0a7c3bff3,
+      type: 3}
+    m_OverrideClip: {fileID: 1827226128182048838, guid: 0077acff8ea3f904094faba0a7c3bff3,
+      type: 3}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: 7304397faab29aa4ba196af1e63e2816,
+      type: 3}
+    m_OverrideClip: {fileID: 1827226128182048838, guid: 7304397faab29aa4ba196af1e63e2816,
+      type: 3}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: ef87e761d3c0ba043929cef2c5908d24,
+      type: 3}
+    m_OverrideClip: {fileID: 1827226128182048838, guid: ef87e761d3c0ba043929cef2c5908d24,
+      type: 3}
