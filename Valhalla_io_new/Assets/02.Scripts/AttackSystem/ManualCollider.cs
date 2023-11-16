@@ -13,7 +13,7 @@ public class ManualCollider : MonoBehaviour
     private void Start()
     {
         var initialPos = new Vector3(0, (boxSize.y * 0.5f) * 0.5f, (boxSize.z * 0.5f) * 0.5f);
-        transform.localPosition = initialPos;
+        transform.position = initialPos;
     }
     #endregion Unity Methods
 
@@ -23,13 +23,15 @@ public class ManualCollider : MonoBehaviour
         var targets = Physics.OverlapBox(transform.position, boxSize * 0.5f, transform.rotation, targetMask);
         return targets;
     }
+    #endregion Main Methods
 
+#if UNITY_EDITOR
     private void OnDrawGizmos()
     {
         Gizmos.matrix = transform.localToWorldMatrix;
         Gizmos.color = Color.yellow;
 
-        Gizmos.DrawWireCube(transform.position, boxSize);
+        Gizmos.DrawWireCube(transform.localPosition, boxSize);
     }
-    #endregion Main Methods
+#endif
 }
